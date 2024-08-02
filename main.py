@@ -22,5 +22,15 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
 # Transforms audio into text
 result = model.transcribe('tmp.mp3')
 
+# Prints text
 print("---------------------------------")
 print(result["text"])
+
+
+
+
+file_path = "transcription.txt"
+
+# Saves text into a .txt file
+with open(file_path, "w+") as txt_file:
+    txt_file.write(result['text'])

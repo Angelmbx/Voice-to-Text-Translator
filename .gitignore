@@ -24,3 +24,6 @@ Thumbs.db
 
 # Ignora archivo de audio
 tmp.mp3
+
+# Ignora archivo de texto
+transcription.txt
