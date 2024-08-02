@@ -1,0 +1,26 @@
+# Ignorar archivos .DS_Store
+.DS_Store
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de entorno virtual de Python
+venv/
+env/
+ENV/
+virtual_env/
+ytenv/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema
+Thumbs.db
+
+# Ignora archivo de audio
+tmp.mp3
